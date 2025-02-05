@@ -10,9 +10,9 @@ from Script import script
 id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
-SESSION = environ.get('SESSION', 'SrkBot')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+SESSION = environ.get('SESSION', 'TechVJ')
+API_ID = int(environ.get('API_ID', '27732828'))
+API_HASH = environ.get('API_HASH', '1586630ea98d2393f7feb51cb84c3121')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
